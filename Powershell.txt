@@ -1,0 +1,12 @@
+#获得虚拟机
+Get-VM [-Name] [Hyper-v_name]
+#启动虚拟机
+Start-VM <Hyper-v_name>
+#暂停虚拟机
+Supend-VM <Hyper-v_name>
+#恢复虚拟机
+Resume-VM <Hyper-v_name>
+#保存虚拟机
+Save-VM <Hyper-v_name>
+#关闭虚拟机
+Stop-VM <Hyper-v_name>
