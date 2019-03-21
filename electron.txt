@@ -2,3 +2,12 @@
 sudo install npm
 
 sudo npm install -g electron
+
+electron -v
+
+sudo npm update electron -g
+
+=============================
+uninstall electron
+
+sudo npm uninstall electron
