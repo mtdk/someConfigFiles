@@ -1,0 +1,7 @@
+#install docker to ubuntu
+sudo apt-get install docker && sudo apt-get install docker.io
+
+sudo groupadd docker	#添加docker用户组
+sudo gpassword -a $USER docker	#将登陆用户添加到docker组中
+newgrp docker	#更新用户组
+docker ps	#测试docker命令是否能正常运行
