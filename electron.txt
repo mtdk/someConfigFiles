@@ -1,0 +1,4 @@
+#install electron to ubuntu18.04
+sudo install npm
+
+sudo npm install -g electron
